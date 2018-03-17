@@ -1,6 +1,12 @@
 # test-yoti
 
 I have implemented this webservice with the help of JAX-RS Jersey api .
+# Run:
+Its a maven project, import it on your workspace
+  -$ mvn clean build
+  -Deploy on server
+  -Run the test cases
+  -hit http://localhost:8088/test-yoti/hover from postman with payload
 
 # Web.xml - I have used xml configuration for sevelet rather than Annotation because I believe it is always helpful to look for a configuration in XML then in java.
 
